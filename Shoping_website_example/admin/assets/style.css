@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    background: #D0E7FF;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+}
+.anaEkran{
+    background: #D0E7FF;
+}
+
+
+.girisEkrani {
+    display: flex;
+    flex-direction: column;
+    /* İçerikleri dikey olarak hizala */
+    justify-content: center;
+    /* İçerikleri dikeyde ortala */
+    align-items: center;
+    /* İçerikleri yatayda ortala */
+    background: rgba(95, 26, 26, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background: linear-gradient(274deg, rgba(62,56,161,1) 0%, rgba(21,179,212,1) 100%);
+    height: 500px;
+    width: 450px;
+    margin: auto;
+}
+
+.baslik {
+    align-items: center;
+    background: gray;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+
+.giris_kayitButton {
+    display: flex;
+    justify-content: left;
+    height: 40px;
+    width: 110px;
+    margin-top: 15px;
+}
+
+.giris_kayitButton a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.loginButton:hover {
+    background: linear-gradient(274deg, rgba(62,56,161,1) 0%, rgba(21,179,212,1) 100%);
+    color:whitesmoke;
+    transition: all 0.5s ease;
+}
+
+header {
+    background-color: #aeaeae;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    color: azure;
+}
+
+.menu {
+    background-color: #aeaeae;
+    padding: 10px;
+    border-radius: 5px;
+    height: calc(100vh - 120px);
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #022141;
+}
+
+.signinButton:hover{
+    background: linear-gradient(274deg, rgba(62,56,161,1) 0%, rgba(21,179,212,1) 100%);
+    color:whitesmoke;
+    transition: all 0.5s ease;
+}
+
+.exit {
+    display: flex;
+    padding-top: 20px;
+}
+
+.nameAndPassword {
+    padding-top: 20px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 200px;
+}
+
+.uyeEkle {
+    display: flex;
+    width: 200px;
+    background-color: rgb(193, 190, 190);
+}
+
+#uyari{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.siparis {
+    margin-bottom: 25px;
+    padding: 5px;
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.siparis-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+}
